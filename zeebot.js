@@ -404,7 +404,7 @@ switch (command) {
     "Yang donasi semoga dapet pahala banyak amin"
     *Dana* = 081273900363 
     *Pulsa* = 081273900363 
-    _thanks buat yang donasi_*') 
+    _thanks buat yang donasi_') 
     break
     case 'bc': case 'broadcast':
          if (!isOwner) return  reply(mess.only.owner)
