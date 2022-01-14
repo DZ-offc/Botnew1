@@ -488,6 +488,14 @@ switch (command) {
 		  publik = false
 		  reply('Sukses mengubah mode public ke self')
 		  break
+case'donasi':
+    const dns =`donasi? Gas Ken seikhlas nya 😘
+    *Dana* = 081273900363 
+   =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+    *Pulsa* = 081273900363
+    Makasih buat yang udah donate👉👈`
+    zee.sendMessage(from, dns, image, { quoted: mek, thumbnail: fs.readFileSync('./media/zeebot.jpg')})
+    break 
      case 'sticker': case 'stiker': case 'sg': case 's':
   	    //   if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (ups.lim)       
            if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
